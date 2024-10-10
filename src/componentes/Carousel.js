@@ -1,7 +1,7 @@
 import React from "react";
-import image1 from '../Assets/termius.png';
-import image2 from '../Assets/termius.png';
-import image3 from '../Assets/termius.png';
+import image1 from '../Assets/img1.jpeg';
+import image2 from '../Assets/img2.jpeg';
+import image3 from '../Assets/img3.jpeg';
 import { CCarouselItem } from '@coreui/react';
 import { CCarouselCaption } from '@coreui/react';
 import { CCarousel } from '@coreui/react';
@@ -24,7 +24,7 @@ function UncontrolledExample() {
   <CCarouselItem>
     <CImage className="d-block w-100" src={image2} alt="Descripción de la imagen 2" />
     <CCarouselCaption className="d-none d-md-block">
-      <h5>2- Modelado en 3D:
+      <h5>Modelado en 3D:
       </h5>
       <p>
       .</p>

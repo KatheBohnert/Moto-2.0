@@ -3,20 +3,22 @@ import YouTube from 'react-youtube';
 
 const YouTubeVideo = ({ videoId }) => {
     const onReady = (event) => {
-        
+        // Puedes agregar lógica aquí si es necesario
     };
 
     const opts = {
-        height: '390',
-        width: '640',
+        height: '100%', // Cambia a 100% para que ocupe el contenedor
+        width: '100%', // Cambia a 100% para que ocupe el contenedor
     };
 
     return (
-        <YouTube
-            videoId={videoId}
-            opts={opts}
-            onReady={onReady}
-        />
+        <div className="youtube-video-container">
+            <YouTube
+                videoId={videoId}
+                opts={opts}
+                onReady={onReady}
+            />
+        </div>
     );
 };
 

@@ -18,8 +18,6 @@ function CollapsibleExample() {
               <NavDropdown.Item href="#video">
               Video
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Imagenes</NavDropdown.Item>
-              <NavDropdown.Divider />
               <NavDropdown.Item href="#obj">
                 Modelo 3D
               </NavDropdown.Item>
